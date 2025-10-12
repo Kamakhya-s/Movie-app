@@ -7,9 +7,9 @@ import FilterMovies from "./features/movies/components/FilterMovies";
 import MovieDetails from "./features/movies/components/MovieDetails";
 import CreateMovies from "./features/movies/components/CreateMovies";
 import EditMovies from "./features/movies/components/EditMovies";
-import CreateActors from "./features/actors/components/CreateActors";
+import CreateActor from "./features/actors/components/CreateActor";
 import IndexActors from "./features/actors/components/IndexActors";
-import EditActors from "./features/actors/components/EditActors";
+import EditActor from "./features/actors/components/EditActor";
 import IndexTheaters from "./features/theaters/components/IndexTheaters";
 import CreateTheaters from "./features/theaters/components/CreateTheaters";
 import EditTheaters from "./features/theaters/components/EditTheaters";
@@ -24,8 +24,8 @@ export default function AppRoutes() {
     <Route path="/genres/edit/:id" element={<EditGenres/>}/>
 
     <Route path="/actors" element={<IndexActors/>}/>
-    <Route path="/actors/create" element={<CreateActors/>}/>
-    <Route path="/actors/edit/:id" element={<EditActors/>}/>
+    <Route path="/actors/create" element={<CreateActor/>}/>
+    <Route path="/actors/edit/:id" element={<EditActor/>}/>
 
     <Route path="/theaters" element={<IndexTheaters/>}/>
     <Route path="/theaters/create" element={<CreateTheaters/>}/>
