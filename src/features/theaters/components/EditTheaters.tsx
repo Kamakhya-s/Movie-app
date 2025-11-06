@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import type TheaterCreation from "../models/TheaterCreation";
+import type TheaterCreation from "../models/TheaterCreation.model";
 import TheaterForm from "./TheaterForm";
 import Loading from "../../../components/Loading";
 import type { SubmitHandler } from "react-hook-form";

@@ -1,7 +1,7 @@
 import { useForm, type SubmitHandler } from "react-hook-form";
 import * as yup from "yup"
 import FirstLetterUpperCase from "../../validations/FirstLetterUpperCase"
-import type TheaterCreation from "../models/TheaterCreation";
+import type TheaterCreation from "../models/TheaterCreation.model";
 import { yupResolver } from "@hookform/resolvers/yup";
 import Button from "../../movies/components/Button";
 import { NavLink } from "react-router";
